@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.page {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 54vw;
+  border-radius: 20px !important;
+}
+.card-headear img {
+  width: 90%;
+  border-radius: 20px;
+}
+.card-body {
+  padding: 0 32px !important;
+}
+.body-head h1 {
+  color: hsl(24, 5%, 18%);
+}
+.body-head p {
+  color: hsl(24, 5%, 18%);
+  opacity: 80%;
+  font-size: 16px;
+}
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 20px;
+}
+.preparation-time div {
+  padding: 15px 0px;
+}
+.preparation-time h4 {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-time li {
+  color: hsl(332, 51%, 32%);
+  margin: 5px 0;
+}
+.preparation-time span {
+  color: hsl(30, 10%, 34%);
+  margin-left: 20px;
+}
+.ingredients h2,
+ul {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients ul li p {
+  margin: 0 0 8px;
+  color: hsl(24, 5%, 18%);
+}
+.instruction h2,
+ol {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.instruction b {
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+.instruction span {
+  color: hsl(30, 10%, 34%);
+  font-weight: normal;
+}
+.instruction li {
+  margin: 0 0 8px;
+}
+table {
+  width: 100%;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table tr:last-child {
+  border: none;
+}
+.nurtition p {
+  color: hsl(30, 10%, 34%);
+}
+.nurtition h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+@media screen and (max-width : 375px) {
+  .card{
+    width: 100%;
+  }
+}
